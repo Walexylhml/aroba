@@ -1,0 +1,1316 @@
+{
+  "collection": "Aroba Classic Yoruba Books — Consolidated",
+  "version": "1.0",
+  "generated_from": "Aroba book-story work in this chat",
+  "deduplication": {
+    "method": "book identity/title",
+    "note": "Duplicate and conflicting historical IDs were consolidated into one canonical record per distinct documented book/work."
+  },
+  "story_count": 19,
+  "stories": [
+    {
+      "id": "aroba-book-001",
+      "title_en": "The Brave Hunter in the Forest of Spirits",
+      "title_yo": "Ògbójú Ọdẹ Nínú Igbó Irúnmọlẹ̀",
+      "author": "D.O. Fágúnwà",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "adventure",
+        "folklore",
+        "mythology",
+        "spiritual journey"
+      ],
+      "secondary_tags": [
+        "hunter",
+        "Irunmole",
+        "Agbako",
+        "Langbodo",
+        "Iragbeje"
+      ],
+      "summary": "Akara-Ogun's extraordinary journeys through Irunmole and later to Mount Langbodo expose him to monsters, spirits, death, love, betrayal, friendship and finally the wisdom needed to understand what makes a kingdom prosper.",
+      "status": "draft",
+      "source_note": "Canonical version consolidated from the earlier Aroba story work. The story follows the eight-part structure of Fágúnwà's 1938 novel and its major characters and episodes.",
+      "items": [
+        {
+          "pid": "aroba-book-001#p001",
+          "type": "p",
+          "text": "Come close, my children, and listen to the tale of Akara-Ogun, an old hunter whose life was so full of strange journeys that ordinary roads could never contain his story. He came to the storyteller and asked that the life of a hunter who had walked among men, spirits and monsters not be forgotten."
+        },
+        {
+          "pid": "aroba-book-001#p002",
+          "type": "p",
+          "text": "Akara-Ogun's troubles began at home. His father had married a woman who was secretly a witch and could transform herself into an antelope. When a spirit urged his father to kill her, the terrible act was carried out, and before long Akara-Ogun lost his father too, leaving him to face the world alone."
+        },
+        {
+          "pid": "aroba-book-001#p003",
+          "type": "p",
+          "text": "The young hunter entered Irunmole, the terrifying forest inhabited by strange beings and deities. There he encountered Olori-Igbo, king of the ghommids, and escaped only through courage, quick thinking and supernatural protection."
+        },
+        {
+          "pid": "aroba-book-001#p004",
+          "type": "p",
+          "text": "On another journey he met the monstrous Agbako, a creature with sixteen eyes. The earth opened beneath Akara-Ogun and swallowed him, carrying him into the underground world of the ghommids."
+        },
+        {
+          "pid": "aroba-book-001#p005",
+          "type": "p",
+          "text": "Iranlowo, the Helpmeet, guided him toward the City of Filth. There he met Iwapede and fell in love with her, but happiness again turned into mystery. After her sudden death, Akara-Ogun entered the forbidden room she had warned him about and found himself transported back to his old home, now surrounded by unexpected wealth."
+        },
+        {
+          "pid": "aroba-book-001#p006",
+          "type": "break"
+        },
+        {
+          "pid": "aroba-book-001#p007",
+          "type": "p",
+          "text": "Akara-Ogun later returned to Irunmole and endured another series of dangers. A fish-scaled man captured him, but Akara-Ogun prayed to God and outwitted the creature by making him believe that water could flow from the barrel of his gun."
+        },
+        {
+          "pid": "aroba-book-001#p008",
+          "type": "p",
+          "text": "He lived for a time among the ghommids and became friendly with their king. But jealousy followed him. His enemies eventually seized him and buried him up to the neck, leaving him helpless until rain softened the earth and allowed him to escape."
+        },
+        {
+          "pid": "aroba-book-001#p009",
+          "type": "p",
+          "text": "He later fell into a pit filled with dead animals. A beautiful woman helped him, but she too died, and Akara-Ogun called upon his mother. She appeared and directed him toward a tunnel through which he could continue his journey."
+        },
+        {
+          "pid": "aroba-book-001#p010",
+          "type": "p",
+          "text": "He met Lamorin and became his friend. He also married a ghommid woman who could not remain in the human world. When Tembelekun captured and killed Lamorin, Akara-Ogun finally decided that his time in Irunmole had to end."
+        },
+        {
+          "pid": "aroba-book-001#p011",
+          "type": "p",
+          "text": "Back in his human kingdom, Akara-Ogun's courage had become widely known. The king therefore asked him to join a group of heroes travelling to Mount Langbodo to obtain an object believed capable of bringing peace and prosperity to the kingdom."
+        },
+        {
+          "pid": "aroba-book-001#p012",
+          "type": "p",
+          "text": "Six other heroes joined the expedition: Kako, Imodoye, Olohun-Iyo, Elegbede-Ode, Efoiye and Aramada-Okunrin. Their journey took them through extraordinary places, including the City of Birds, where the ruler was the Ostrich, and through further encounters with beings such as Were-Orun and Agbako."
+        },
+        {
+          "pid": "aroba-book-001#p013",
+          "type": "break"
+        },
+        {
+          "pid": "aroba-book-001#p014",
+          "type": "p",
+          "text": "At Mount Langbodo the travellers were sent to Iragbeje, a wise man who received them for seven days. Instead of simply giving them treasure, he taught them about children, excess, kindness, respect for God and proper conduct."
+        },
+        {
+          "pid": "aroba-book-001#p015",
+          "type": "p",
+          "text": "The deepest message was that a kingdom cannot become prosperous merely because its ruler possesses wealth. A people must learn to love one another, act with good character and recognize that leadership carries responsibility."
+        },
+        {
+          "pid": "aroba-book-001#p016",
+          "type": "p",
+          "text": "The return journey cost several of the heroes their lives. Only Akara-Ogun, Imodoye and Olohun-Iyo survived to return to the king. The king rejoiced, but Akara-Ogun eventually disappeared after completing the tale, leaving the storyteller with his memories."
+        },
+        {
+          "pid": "aroba-book-001#p017",
+          "type": "p",
+          "text": "And so, my children, the hunter's greatest victory was not killing a monster. It was surviving enough of the world to return with wisdom. A person may travel through forests, kingdoms and supernatural places, but the hardest journey is learning how to live well among other human beings."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 622
+    },
+    {
+      "id": "aroba-book-002",
+      "title_en": "The Dancing Masquerade",
+      "title_yo": "Eégún Aláré",
+      "author": "Láwuyì Ògúnníran",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "masquerade",
+        "magic",
+        "performance",
+        "folklore"
+      ],
+      "secondary_tags": [
+        "Ọ̀jẹ́làdé",
+        "Ọ̀jẹ́ Lárìnnàká",
+        "Dáṣọfúnjó",
+        "Dúdúyẹmí"
+      ],
+      "summary": "A magical masquerade story of performance, rivalry, transformation, incantation and the consequences of ambition.",
+      "status": "draft",
+      "source_note": "Canonical consolidation of the earlier Aroba version.",
+      "items": [
+        {
+          "pid": "aroba-book-002#p001",
+          "type": "p",
+          "text": "Come close, my children. Tonight we enter the world of the masquerade, where a performer can disappear beneath cloth, an incantation can change a contest, and a human being may become an animal before the eyes of a crowd."
+        },
+        {
+          "pid": "aroba-book-002#p002",
+          "type": "p",
+          "text": "Ọ̀jẹ́ Lárìnnàká and Dáṣọfúnjó were friends and fellow masqueraders in Òkehò. But the money they earned was not enough, and Lárìnnàká decided to travel in search of better opportunities. He left his pregnant wife, Ìyádùnńní, in Dáṣọfúnjó's care."
+        },
+        {
+          "pid": "aroba-book-002#p003",
+          "type": "p",
+          "text": "The masquerade was more than entertainment. Skill depended on dance, disguise, spiritual knowledge, charms and powerful words. Ọ̀jẹ́làdé became especially renowned for his ability to transform, but the same gift that made him famous repeatedly placed him in danger."
+        },
+        {
+          "pid": "aroba-book-002#p004",
+          "type": "p",
+          "text": "At one point Ọ̀jẹ́làdé was transformed into a python and found himself caught in a situation in which returning to human form was no longer simple. The episode showed that supernatural power is dangerous when a person believes mastery means having no limits."
+        },
+        {
+          "pid": "aroba-book-002#p005",
+          "type": "p",
+          "text": "Incantation eventually became the means by which help was brought to him. Words in this world were not decoration; they carried spiritual force and could restore what magic had taken away."
+        },
+        {
+          "pid": "aroba-book-002#p006",
+          "type": "break"
+        },
+        {
+          "pid": "aroba-book-002#p007",
+          "type": "p",
+          "text": "As the masqueraders gained fame, rivalry grew. Dúdúyẹmí emerged as a formidable competitor, and contests between the performers became struggles over reputation, wealth and recognition."
+        },
+        {
+          "pid": "aroba-book-002#p008",
+          "type": "p",
+          "text": "Ọ̀jẹ́làdé eventually proved himself against his rival and rose in status. His success brought wealth, wives and authority, and he was eventually elevated to the position of Baálẹ̀ Arẹ̀kú-Eégún."
+        },
+        {
+          "pid": "aroba-book-002#p009",
+          "type": "p",
+          "text": "Yet the story never allows success to erase its earlier warnings. Ambition can make a performer brilliant, but envy and pride can turn brilliance into conflict."
+        },
+        {
+          "pid": "aroba-book-002#p010",
+          "type": "p",
+          "text": "Eégún Aláré therefore becomes a story about more than masquerade. It asks what happens when talent becomes identity, when applause becomes hunger, and when a person's desire to defeat a rival becomes more important than friendship or restraint."
+        },
+        {
+          "pid": "aroba-book-002#p011",
+          "type": "p",
+          "text": "So remember, my children: a gift is only as safe as the wisdom of the person who carries it. The greatest performer is not the one who can transform into anything, but the one who knows how to remain fully human."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 349
+    },
+    {
+      "id": "aroba-book-003",
+      "title_en": "Ò Le Kú",
+      "title_yo": "Ò Le Kú",
+      "author": "Akínwùnmí Ìṣọ̀lá",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "social realism",
+        "family",
+        "relationships",
+        "morality"
+      ],
+      "secondary_tags": [
+        "marriage",
+        "love",
+        "society",
+        "consequences"
+      ],
+      "summary": "A Yoruba social novel concerned with relationships, family pressure, personal choices and the consequences that follow when people allow emotion and social expectation to guide important decisions.",
+      "status": "draft",
+      "source_note": "Canonical consolidation of the earlier Aroba work; exact earlier version contained a more detailed narrative treatment.",
+      "items": [
+        {
+          "pid": "aroba-book-003#p001",
+          "type": "p",
+          "text": "Come close, my children, because some stories are not about distant kings or magical forests. Some are about ordinary people, the choices they make, and the trouble that begins when the heart wants one thing while family and society demand another."
+        },
+        {
+          "pid": "aroba-book-003#p002",
+          "type": "p",
+          "text": "At the centre of Ò Le Kú are young people whose relationships become entangled with family expectations, affection, jealousy and the pressure to make choices before they are ready."
+        },
+        {
+          "pid": "aroba-book-003#p003",
+          "type": "p",
+          "text": "Ajani's relationship with Asake becomes especially important. What begins with affection becomes increasingly complicated as other relationships and social expectations enter the picture."
+        },
+        {
+          "pid": "aroba-book-003#p004",
+          "type": "p",
+          "text": "Lola and Sade add another layer to the story, showing how one person's decision can affect several people at once. Nobody lives inside a relationship alone; families, friends and communities eventually feel the consequences."
+        },
+        {
+          "pid": "aroba-book-003#p005",
+          "type": "p",
+          "text": "The story repeatedly asks whether love is enough when trust has been damaged. A person may sincerely love another and still make choices that destroy the relationship."
+        },
+        {
+          "pid": "aroba-book-003#p006",
+          "type": "p",
+          "text": "The characters therefore have to confront the difference between what they want today and what their choices may cost tomorrow."
+        },
+        {
+          "pid": "aroba-book-003#p007",
+          "type": "break"
+        },
+        {
+          "pid": "aroba-book-003#p008",
+          "type": "p",
+          "text": "Family becomes another source of pressure. Older people carry their own ideas about marriage, respectability and responsibility, while younger people want room to decide their futures."
+        },
+        {
+          "pid": "aroba-book-003#p009",
+          "type": "p",
+          "text": "The tension is not simply between good people and bad people. It is between competing expectations, incomplete information and human weakness."
+        },
+        {
+          "pid": "aroba-book-003#p010",
+          "type": "p",
+          "text": "By the time the consequences of the characters' choices become unavoidable, the story has made one thing clear: a decision made in a moment can create a problem that takes years to repair."
+        },
+        {
+          "pid": "aroba-book-003#p011",
+          "type": "p",
+          "text": "And so, my children, when the heart tells you to hurry, let wisdom ask one more question: what happens after the excitement has passed? That question can save a person from many regrets."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 287
+    },
+    {
+      "id": "aroba-book-004",
+      "title_en": "The Quiet Catastrophe",
+      "title_yo": "Atótó Arére",
+      "author": "Oládẹ̀jọ Òkédìjí",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "crime",
+        "social realism",
+        "poverty",
+        "family"
+      ],
+      "secondary_tags": [
+        "Àlàbá",
+        "Saminu",
+        "crime",
+        "prison",
+        "society"
+      ],
+      "summary": "Àlàbá's broken family life, poverty and bad company push him from petty theft into hardened criminality, while the novel asks how personal responsibility and social failure interact.",
+      "status": "draft",
+      "source_note": "Canonical version based on the earlier Aroba story work and published descriptions of Òkédìjí's novel.",
+      "items": [
+        {
+          "pid": "aroba-book-004#p001",
+          "type": "p",
+          "text": "Come close, my children, because this story begins at the end. A man named Saminu faces execution, and only by walking backward through the story can we understand how a life reached such a terrible place."
+        },
+        {
+          "pid": "aroba-book-004#p002",
+          "type": "p",
+          "text": "Àlàbá grows up inside a broken home. Without the stability and protection a child needs, he becomes vulnerable to the first people who offer him companionship and a way to survive."
+        },
+        {
+          "pid": "aroba-book-004#p003",
+          "type": "p",
+          "text": "He runs toward the city, hoping that the city will give him opportunity. Instead, it exposes him to poverty, petty crime and people who have already learned how to survive by breaking the rules."
+        },
+        {
+          "pid": "aroba-book-004#p004",
+          "type": "p",
+          "text": "Saminu becomes an important companion. The two young men move through odd jobs and small crimes, and each compromise makes the next compromise easier."
+        },
+        {
+          "pid": "aroba-book-004#p005",
+          "type": "p",
+          "text": "Àlàbá eventually becomes involved in stolen property and receives a long prison sentence. Prison should have been the place where his life changed direction, but instead it connects him more deeply to experienced criminals."
+        },
+        {
+          "pid": "aroba-book-004#p006",
+          "type": "break"
+        },
+        {
+          "pid": "aroba-book-004#p007",
+          "type": "p",
+          "text": "When Àlàbá leaves prison, he knows the criminal world better than he knows the ordinary world. Armed robbery becomes his new path, and Saminu's own rise in the criminal world ties their fates together."
+        },
+        {
+          "pid": "aroba-book-004#p008",
+          "type": "p",
+          "text": "The novel refuses to excuse their crimes, but it also refuses to pretend that criminals appear from nowhere. Broken homes, poverty, bad friendships, failed institutions and personal choices all contribute to the final disaster."
+        },
+        {
+          "pid": "aroba-book-004#p009",
+          "type": "p",
+          "text": "The execution with which the story began now carries a different meaning. What looked like one man's punishment becomes the final visible point in a chain of smaller failures."
+        },
+        {
+          "pid": "aroba-book-004#p010",
+          "type": "p",
+          "text": "Atótó Arére therefore asks society to look earlier. If we wait until a child becomes a criminal before we care about him, we may discover that the catastrophe has already been developing quietly for years."
+        },
+        {
+          "pid": "aroba-book-004#p011",
+          "type": "p",
+          "text": "Remember, my children: a life can change direction long before anybody notices that it is heading toward a cliff. Watch the small things, because the loudest tragedy often begins in silence."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 322
+    },
+    {
+      "id": "aroba-book-005",
+      "title_en": "The First Morsel",
+      "title_yo": "Òkèlè Àkóbù",
+      "author": "Kehinde Adepegba",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "romance",
+        "family",
+        "social realism"
+      ],
+      "secondary_tags": [
+        "Olaoye",
+        "Omolade",
+        "Bolanle",
+        "Bidemi",
+        "blood covenant"
+      ],
+      "summary": "Olaoye and Omolade seal their youthful promise of marriage with a blood covenant, but education, ambition, another relationship and migration pull them apart.",
+      "status": "draft",
+      "source_note": "Canonical consolidation of the earlier Aroba story work.",
+      "items": [
+        {
+          "pid": "aroba-book-005#p001",
+          "type": "p",
+          "text": "My children, when two young people promise to marry, they may believe tomorrow will look exactly like today. Olaoye and Omolade believed this so strongly that they sealed their promise with blood."
+        },
+        {
+          "pid": "aroba-book-005#p002",
+          "type": "p",
+          "text": "They were students when they made the covenant. To them it was a declaration that neither would take another lover and that their future marriage was already settled."
+        },
+        {
+          "pid": "aroba-book-005#p003",
+          "type": "p",
+          "text": "But their paths soon diverged. Olaoye passed his examinations and entered Obafemi Awolowo University, while Omolade struggled academically and eventually turned toward tailoring."
+        },
+        {
+          "pid": "aroba-book-005#p004",
+          "type": "p",
+          "text": "Omolade became pregnant and gave birth to Bidemi, Olaoye's son. The child connected the two even as their circumstances began pulling them apart."
+        },
+        {
+          "pid": "aroba-book-005#p005",
+          "type": "p",
+          "text": "At university Olaoye met Bolanle. A new relationship developed, while the old covenant remained like an unfinished promise hanging over his life."
+        },
+        {
+          "pid": "aroba-book-005#p006",
+          "type": "break"
+        },
+        {
+          "pid": "aroba-book-005#p007",
+          "type": "p",
+          "text": "Omolade eventually discovered the betrayal. The pain was greater because the man who had broken her trust was also the man who had once sealed a promise with her blood."
+        },
+        {
+          "pid": "aroba-book-005#p008",
+          "type": "p",
+          "text": "After graduating, Olaoye left Nigeria for further studies in the United States. He later married Bolanle, believing he had entered a new chapter of his life."
+        },
+        {
+          "pid": "aroba-book-005#p009",
+          "type": "p",
+          "text": "But the past did not disappear. Omolade remained part of his history, and Bidemi remained a living connection between the two people whose young promise had been broken."
+        },
+        {
+          "pid": "aroba-book-005#p010",
+          "type": "p",
+          "text": "The novel uses the blood covenant to ask whether promises made in youth should control people forever, and what responsibility comes with making an absolute promise before understanding how much life can change."
+        },
+        {
+          "pid": "aroba-book-005#p011",
+          "type": "p",
+          "text": "The lesson is not that love is foolish. It is that love needs wisdom. A promise can be beautiful when made, yet become painful when the people who made it have changed."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 277
+    },
+    {
+      "id": "aroba-book-006",
+      "title_en": "Bámídélé Èlẹ́wà Sàpọn",
+      "title_yo": "Bámídélé Èlẹ́wà Sàpọn",
+      "author": "Unverified in earlier work",
+      "category": "Yoruba Literature",
+      "category_tags": [
+        "Yoruba literature",
+        "social drama"
+      ],
+      "secondary_tags": [
+        "classic",
+        "family",
+        "society"
+      ],
+      "summary": "A previously catalogued Yoruba title in the Aroba book project. The earlier record was retained as a distinct work, but authorship and edition details were not fully verified.",
+      "status": "draft",
+      "source_note": "Earlier Aroba catalog record; author/edition remained unverified. Retained so the consolidated file does not silently lose a book already worked on.",
+      "items": [
+        {
+          "pid": "aroba-book-006#p001",
+          "type": "p",
+          "text": "This record preserves the Bámídélé Èlẹ́wà Sàpọn story entry from the earlier Aroba book catalog. The work was identified as a Yoruba literary title requiring further source verification."
+        },
+        {
+          "pid": "aroba-book-006#p002",
+          "type": "p",
+          "text": "Because the earlier work did not establish a reliable edition and author attribution, the story is intentionally kept at the level of the documented Aroba entry rather than inventing plot details."
+        },
+        {
+          "pid": "aroba-book-006#p003",
+          "type": "p",
+          "text": "For Aroba, preserving a truthful record is better than filling gaps with a story that cannot be tied confidently to the original book."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 82
+    },
+    {
+      "id": "aroba-book-007",
+      "title_en": "The Loft Bears the Burden",
+      "title_yo": "Àjà Ló Lẹ́rù",
+      "author": "Oládẹ̀jọ Òkédìjí",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "detective fiction",
+        "crime",
+        "mystery",
+        "police"
+      ],
+      "secondary_tags": [
+        "Lápadé",
+        "Tàfà Ìgìrìpà",
+        "kidnapping",
+        "Ibadan"
+      ],
+      "summary": "Retired policeman Lápadé becomes involved in a criminal case involving stolen money, kidnapping and a wider network of crime around Ibadan.",
+      "status": "draft",
+      "source_note": "Earlier Aroba record. Some plot details in the original draft were flagged for later verification; this consolidated version preserves the recorded story without adding unsupported specifics.",
+      "items": [
+        {
+          "pid": "aroba-book-007#p001",
+          "type": "p",
+          "text": "Lápadé had left the police service and hoped for a quieter life. But people who have spent years learning how criminals think do not always find it easy to ignore trouble when it walks past their door."
+        },
+        {
+          "pid": "aroba-book-007#p002",
+          "type": "p",
+          "text": "After becoming involved with stolen money, Lápadé found himself drawn into a larger criminal network. What looked like an isolated incident began connecting to kidnapping, drugs and organized crime."
+        },
+        {
+          "pid": "aroba-book-007#p003",
+          "type": "p",
+          "text": "He worked with Tàfà Ìgìrìpà while also facing suspicion from the police. His knowledge of criminal methods made him useful, but it also made some people wonder whether he knew more than he admitted."
+        },
+        {
+          "pid": "aroba-book-007#p004",
+          "type": "p",
+          "text": "The investigation gradually exposed the people behind the crimes and helped rescue a kidnapped girl. Yet the familiar irony remained: the person who helped uncover the crime did not necessarily receive the public credit."
+        },
+        {
+          "pid": "aroba-book-007#p005",
+          "type": "p",
+          "text": "The story combines mystery with a portrait of urban life, showing how crime can grow through networks of money, fear and opportunity."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 156
+    },
+    {
+      "id": "aroba-book-008",
+      "title_en": "The Adult Crab",
+      "title_yo": "Agbalagba Akan",
+      "author": "Oládẹ̀jọ Òkédìjí",
+      "category": "Yoruba Literature",
+      "category_tags": [
+        "Yoruba literature",
+        "crime fiction",
+        "social criticism",
+        "detective fiction"
+      ],
+      "secondary_tags": [
+        "Lápadé",
+        "crime",
+        "mystery"
+      ],
+      "summary": "An earlier Aroba catalogued crime story associated with Òkédìjí's detective fiction, using the image of the adult crab to explore cunning, survival and criminal behaviour.",
+      "status": "draft",
+      "source_note": "Earlier Aroba record; exact title/plot attribution was flagged for verification and is retained here as a documented work rather than expanded with unsupported details.",
+      "items": [
+        {
+          "pid": "aroba-book-008#p001",
+          "type": "p",
+          "text": "The adult crab is a creature that has learned how to survive. In this story, that image becomes a way of thinking about people who learn to move through society by cunning, concealment and calculation."
+        },
+        {
+          "pid": "aroba-book-008#p002",
+          "type": "p",
+          "text": "The earlier Aroba treatment placed the story within Òkédìjí's crime and detective tradition, where wrongdoing is examined not only as an individual act but as something connected to the environment in which people live."
+        },
+        {
+          "pid": "aroba-book-008#p003",
+          "type": "p",
+          "text": "The central warning is that cleverness without character eventually turns survival into destruction."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 82
+    },
+    {
+      "id": "aroba-book-009",
+      "title_en": "Jagua Jaguar",
+      "title_yo": "Jàgùà Jàgùà",
+      "author": "Akínwùnmí Ìṣọ̀lá",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "social satire",
+        "ambition",
+        "modern life"
+      ],
+      "secondary_tags": [
+        "money",
+        "deception",
+        "social climbing",
+        "modernity"
+      ],
+      "summary": "A satirical Yoruba novel concerned with ambition, money, deception, social climbing and the tensions between traditional values and modern aspirations.",
+      "status": "draft",
+      "source_note": "Canonical consolidation of the earlier Aroba treatment.",
+      "items": [
+        {
+          "pid": "aroba-book-009#p001",
+          "type": "p",
+          "text": "Jàgùà Jàgùà enters a world where people increasingly measure one another by money, influence and appearance. A person who wants to rise quickly can easily discover that the fastest road upward is not always an honest one."
+        },
+        {
+          "pid": "aroba-book-009#p002",
+          "type": "p",
+          "text": "The title itself evokes a forceful, predatory personality. The story uses that energy to explore people who treat society as a place to hunt for wealth, status and advantage."
+        },
+        {
+          "pid": "aroba-book-009#p003",
+          "type": "p",
+          "text": "Characters become caught between traditional expectations and modern opportunities. Education, money and urban life promise freedom, but they also create new temptations."
+        },
+        {
+          "pid": "aroba-book-009#p004",
+          "type": "p",
+          "text": "Deception becomes a recurring instrument. People present one face to the public while pursuing another goal privately."
+        },
+        {
+          "pid": "aroba-book-009#p005",
+          "type": "p",
+          "text": "The humour is therefore not merely for entertainment. It exposes the foolishness of people who believe wealth can replace character."
+        },
+        {
+          "pid": "aroba-book-009#p006",
+          "type": "p",
+          "text": "By the end, the story leaves its readers with the familiar Yoruba warning that a person who chases status without wisdom may eventually become trapped by the very system he tried to master."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 158
+    },
+    {
+      "id": "aroba-book-010",
+      "title_en": "Kúrunmí",
+      "title_yo": "Kúrunmí",
+      "author": "Ola Rotimi",
+      "category": "Historical Drama",
+      "category_tags": [
+        "Yoruba literature",
+        "historical drama",
+        "tragedy",
+        "war",
+        "Ibadan history"
+      ],
+      "secondary_tags": [
+        "Kurunmi",
+        "Adelu",
+        "Atiba",
+        "Ogunmola",
+        "Ijaye"
+      ],
+      "summary": "Kúrunmí dramatizes the nineteenth-century conflict over succession to the Alaafin throne and the devastating Ijaye war that follows when Kurunmi refuses to accept Adelu as successor to Atiba.",
+      "status": "draft",
+      "source_note": "Canonical version retained from the earlier Aroba work.",
+      "items": [
+        {
+          "pid": "aroba-book-010#p001",
+          "type": "p",
+          "text": "Come close, my children, because this is the story of a warrior who would rather die than bend his understanding of honour. His name was Kúrunmí, the Are-Ona-Kakanfo of Yorubaland and ruler of Ijaye."
+        },
+        {
+          "pid": "aroba-book-010#p002",
+          "type": "p",
+          "text": "Alaafin Atiba wanted his son Adelu to succeed him. But the succession touched an older political tradition, and Kúrunmí believed the proposed arrangement violated principles that should not be sacrificed for convenience."
+        },
+        {
+          "pid": "aroba-book-010#p003",
+          "type": "p",
+          "text": "Kúrunmí therefore refused to recognize Adelu. The disagreement grew beyond a family question and became a political crisis involving Ibadan and powerful military leaders such as Ogunmola and Ibikunle."
+        },
+        {
+          "pid": "aroba-book-010#p004",
+          "type": "p",
+          "text": "Attempts were made to settle the dispute peacefully, including efforts by Reverend Mann. But compromise became harder as honour, authority and political interests hardened on every side."
+        },
+        {
+          "pid": "aroba-book-010#p005",
+          "type": "p",
+          "text": "War finally came to Ijaye. Kúrunmí sent his sons into battle, knowing that the war was becoming increasingly destructive."
+        },
+        {
+          "pid": "aroba-book-010#p006",
+          "type": "p",
+          "text": "One by one, his sons were lost. The warrior who had been willing to sacrifice everything for principle was now watching his own family pay the price of the conflict."
+        },
+        {
+          "pid": "aroba-book-010#p007",
+          "type": "break"
+        },
+        {
+          "pid": "aroba-book-010#p008",
+          "type": "p",
+          "text": "The war continued toward disaster. The River Ose became part of the catastrophe, and Ijaye eventually fell."
+        },
+        {
+          "pid": "aroba-book-010#p009",
+          "type": "p",
+          "text": "Kúrunmí could not accept the destruction of the city and the death of his people as a victory. His refusal to surrender had preserved his sense of honour but had also brought terrible loss."
+        },
+        {
+          "pid": "aroba-book-010#p010",
+          "type": "p",
+          "text": "At the end he drank poison. He ordered that his body be buried beneath the sand of the River Ose, symbolically returning the warrior to the landscape for which he had fought."
+        },
+        {
+          "pid": "aroba-book-010#p011",
+          "type": "p",
+          "text": "Kúrunmí is therefore not simply a heroic war story. It asks whether principle without flexibility can become destructive, and whether a leader can preserve honour while also protecting the people who depend upon him."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 288
+    },
+    {
+      "id": "aroba-book-011",
+      "title_en": "The King Did Not Hang",
+      "title_yo": "Ọba Kò Só",
+      "author": "Dúró Ladípọ̀",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "historical drama",
+        "Yoruba opera",
+        "mythology",
+        "Sàngó"
+      ],
+      "secondary_tags": [
+        "Sango",
+        "Oya",
+        "Gbongonkaa",
+        "Timi",
+        "Oyo"
+      ],
+      "summary": "A dramatic retelling of the story of Sàngó, whose political conflicts, rivalry and supernatural transformation turn a powerful Alaafin into the deity associated with thunder and lightning.",
+      "status": "draft",
+      "source_note": "Canonical title/author retained from the earlier Aroba work; earlier notes contained conflicting attribution, so this record is marked for source verification.",
+      "items": [
+        {
+          "pid": "aroba-book-011#p001",
+          "type": "p",
+          "text": "In Ọ̀yọ́ there ruled a powerful Alaafin named Sàngó. He was feared for his strength and his temper, but a ruler who commands fear must also learn that power creates enemies."
+        },
+        {
+          "pid": "aroba-book-011#p002",
+          "type": "p",
+          "text": "His relationship with powerful figures such as Gbòónkáà and Tìmì became increasingly difficult. Rivalry inside the political order began threatening the stability of the kingdom."
+        },
+        {
+          "pid": "aroba-book-011#p003",
+          "type": "p",
+          "text": "Sàngó's authority was challenged through political manipulation, while Ọ̀yá and other figures became entangled in the struggle surrounding the throne."
+        },
+        {
+          "pid": "aroba-book-011#p004",
+          "type": "p",
+          "text": "Eventually the political conflict became inseparable from the supernatural world. Sàngó's story moved from palace politics into legend."
+        },
+        {
+          "pid": "aroba-book-011#p005",
+          "type": "p",
+          "text": "He disappeared from ordinary human life and became associated with thunder and lightning. The king did not simply vanish; his death was transformed into the beginning of a new spiritual identity."
+        },
+        {
+          "pid": "aroba-book-011#p006",
+          "type": "p",
+          "text": "The story therefore stands between history, mythology and theatre, asking how the memory of a powerful ruler can become the foundation of religious tradition."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 149
+    },
+    {
+      "id": "aroba-book-012",
+      "title_en": "Efunsetan Aniwura, Iyalode of Ibadan",
+      "title_yo": "Ẹfúnṣetán Aníwúrà, Ìyálóde Ìbàdàn",
+      "author": "Akínwùnmí Ìṣọ̀lá",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "historical drama",
+        "women",
+        "Ibadan history",
+        "tragedy"
+      ],
+      "secondary_tags": [
+        "Efunsetan",
+        "Latoosa",
+        "trade",
+        "power",
+        "motherhood"
+      ],
+      "summary": "The rise and tragic fall of the wealthy and powerful Iyalode Efunsetan Aniwura after the death of her only daughter transforms her grief into increasingly harsh rule.",
+      "status": "draft",
+      "source_note": "Canonical consolidation of the earlier Aroba version.",
+      "items": [
+        {
+          "pid": "aroba-book-012#p001",
+          "type": "p",
+          "text": "There was once a woman in Ibadan whose wealth and authority were so great that warriors and titled men had to reckon with her. Her name was Ẹfúnṣetán Aníwúrà, the Iyalode of Ibadan."
+        },
+        {
+          "pid": "aroba-book-012#p002",
+          "type": "p",
+          "text": "She had built her position through trade, enterprise and force of personality. Her household was large, and her title gave her significant influence."
+        },
+        {
+          "pid": "aroba-book-012#p003",
+          "type": "p",
+          "text": "Then her only daughter died during childbirth. The loss broke something inside her."
+        },
+        {
+          "pid": "aroba-book-012#p004",
+          "type": "p",
+          "text": "Grief hardened into bitterness. The once-respected woman increasingly ruled those around her through fear, and the people under her authority suffered severe punishment for disobedience."
+        },
+        {
+          "pid": "aroba-book-012#p005",
+          "type": "p",
+          "text": "Her private grief gradually became a public political problem. Power without restraint had turned into oppression."
+        },
+        {
+          "pid": "aroba-book-012#p006",
+          "type": "p",
+          "text": "Làtóòsà and the Ibadan warriors eventually moved against her. Efunsetan resisted, but wealth could not protect her forever once the community had decided her rule had become intolerable."
+        },
+        {
+          "pid": "aroba-book-012#p007",
+          "type": "p",
+          "text": "Her death completed the tragedy. She was remembered both for the remarkable power she achieved and for the cruelty into which grief and unchecked authority had carried her."
+        },
+        {
+          "pid": "aroba-book-012#p008",
+          "type": "p",
+          "text": "The story asks how sorrow becomes bitterness, how authority becomes tyranny, and how a wounded person remains responsible for the wounds she inflicts on others."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 191
+    },
+    {
+      "id": "aroba-book-013",
+      "title_en": "Madam Tinubu: The Terror in Lagos",
+      "title_yo": "Madam Tínúbú: Ìbẹ̀rù ní Èkó",
+      "author": "Akínwùnmí Ìṣọ̀lá",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "historical drama",
+        "women",
+        "politics",
+        "colonialism",
+        "Lagos history"
+      ],
+      "secondary_tags": [
+        "Efunroye Tinubu",
+        "trade",
+        "power",
+        "British colonialism",
+        "Abeokuta"
+      ],
+      "summary": "A historical drama about Efunroye Tinubu, a formidable trader and political force whose wealth and alliances placed her at the centre of Lagos and Abeokuta politics during the nineteenth century.",
+      "status": "draft",
+      "source_note": "Canonical consolidation of the earlier Aroba version; title variants are consolidated under this record.",
+      "items": [
+        {
+          "pid": "aroba-book-013#p001",
+          "type": "p",
+          "text": "Come close, my children, because today's story belongs to a woman who understood that commerce can become power. Her name was Efunroye Tinubu, remembered in Lagos history as Madam Tinubu."
+        },
+        {
+          "pid": "aroba-book-013#p002",
+          "type": "p",
+          "text": "She became wealthy through trade and built networks among merchants, chiefs and political figures. She refused to remain merely a wealthy market woman; she became a force in the politics around her."
+        },
+        {
+          "pid": "aroba-book-013#p003",
+          "type": "p",
+          "text": "Lagos was changing around her. African rulers and merchants were negotiating with European traders and colonial representatives, while different interests competed for control of the city's wealth and political future."
+        },
+        {
+          "pid": "aroba-book-013#p004",
+          "type": "p",
+          "text": "Tinubu's influence made her useful to some people and dangerous to others. Traditional rulers wanted authority, African elites wanted their interests protected, and British officials increasingly sought influence over Lagos."
+        },
+        {
+          "pid": "aroba-book-013#p005",
+          "type": "p",
+          "text": "Tinubu resisted pressure through wealth, alliances and political strategy. Every victory increased her influence, but every increase in influence also created another enemy."
+        },
+        {
+          "pid": "aroba-book-013#p006",
+          "type": "break"
+        },
+        {
+          "pid": "aroba-book-013#p007",
+          "type": "p",
+          "text": "Her story is therefore not only about one woman. It is about commerce, gender, African political power and the expanding reach of colonial authority."
+        },
+        {
+          "pid": "aroba-book-013#p008",
+          "type": "p",
+          "text": "The drama presents a woman determined to participate in history rather than stand behind the men writing it. Her methods could be forceful and controversial, but her political presence could not be ignored."
+        },
+        {
+          "pid": "aroba-book-013#p009",
+          "type": "p",
+          "text": "Madam Tinubu leaves us with a complicated legacy: a trader who became a political strategist, a woman who accumulated extraordinary influence, and a figure whose life unfolded during one of the most consequential periods in Lagos history."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 239
+    },
+    {
+      "id": "aroba-book-014",
+      "title_en": "Saworoide",
+      "title_yo": "Ṣaworoidẹ",
+      "author": "Akínwùnmí Ìṣọ̀lá",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "political allegory",
+        "leadership",
+        "tradition",
+        "social criticism"
+      ],
+      "secondary_tags": [
+        "Jogbo",
+        "Lapite",
+        "Balogun",
+        "Ayangalu",
+        "Ayanniyi",
+        "corruption"
+      ],
+      "summary": "In Jogbo, rulers are bound by an ancient covenant represented by the sacred Ṣaworoidẹ bell. Lapite cheats the ritual and corrupts the kingdom until the old covenant returns as an instrument of accountability.",
+      "status": "draft",
+      "source_note": "Consolidated from the earlier Aroba version of the book/film narrative.",
+      "items": [
+        {
+          "pid": "aroba-book-014#p001",
+          "type": "p",
+          "text": "Come close, my children, because in Jogbo a king could not simply wear a crown and command everyone to obey. Before ruling, he had to enter an ancient covenant with the people."
+        },
+        {
+          "pid": "aroba-book-014#p002",
+          "type": "p",
+          "text": "At the centre of the covenant was the sacred brass bell called the Ṣaworoidẹ. Its meaning was simple: authority came with responsibility."
+        },
+        {
+          "pid": "aroba-book-014#p003",
+          "type": "p",
+          "text": "Lapite became Onijogbo, but he wanted the throne without the restrictions attached to it. He cheated the sacred process and surrounded himself with people who benefited from corruption."
+        },
+        {
+          "pid": "aroba-book-014#p004",
+          "type": "p",
+          "text": "As Lapite's government became corrupt, the ordinary people carried the cost. Public resources became opportunities for private enrichment."
+        },
+        {
+          "pid": "aroba-book-014#p005",
+          "type": "p",
+          "text": "The old covenant, however, had not disappeared. Ayangalu, the traditional drummer, became central to the resistance, and his son Ayanniyi eventually inherited the role of carrying the sacred message."
+        },
+        {
+          "pid": "aroba-book-014#p006",
+          "type": "p",
+          "text": "When the Ṣaworoidẹ was finally played, the sound became a judgment against those who had violated the covenant. Political power could no longer hide behind palace walls."
+        },
+        {
+          "pid": "aroba-book-014#p007",
+          "type": "p",
+          "text": "The kingdom was given another opportunity under a new order. But the warning remained: changing a ruler is not enough if the culture that permits corruption remains unchanged."
+        },
+        {
+          "pid": "aroba-book-014#p008",
+          "type": "p",
+          "text": "A throne is not a licence to do anything. Leadership is a covenant, and sooner or later every leader hears the sound of accountability."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 208
+    },
+    {
+      "id": "aroba-book-015",
+      "title_en": "The Taboo Gong",
+      "title_yo": "Agogo Èèwọ̀",
+      "author": "Akínwùnmí Ìṣọ̀lá",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "political allegory",
+        "leadership",
+        "corruption",
+        "social satire"
+      ],
+      "secondary_tags": [
+        "Jogbo",
+        "governance",
+        "resistance",
+        "political culture"
+      ],
+      "summary": "The sequel to the Jogbo political story, in which a new ruler challenges chiefs who expect him to preserve a corrupt system.",
+      "status": "draft",
+      "source_note": "Consolidated from the earlier Aroba version.",
+      "items": [
+        {
+          "pid": "aroba-book-015#p001",
+          "type": "p",
+          "text": "My children, removing one corrupt ruler does not automatically remove corruption. The people who benefited from the old system may still be sitting in the palace when the new ruler arrives."
+        },
+        {
+          "pid": "aroba-book-015#p002",
+          "type": "p",
+          "text": "The chiefs of Jogbo expect the new ruler to understand the arrangement: the king may have the throne, but the chiefs should continue enjoying the benefits of power."
+        },
+        {
+          "pid": "aroba-book-015#p003",
+          "type": "p",
+          "text": "Instead, the new ruler begins demanding fairness and accountability. The chiefs quickly realize that they have helped place a ruler on the throne whom they cannot easily control."
+        },
+        {
+          "pid": "aroba-book-015#p004",
+          "type": "p",
+          "text": "They respond with manipulation, political schemes and attempts to undermine him. Their real goal is not simply to defeat one man but to preserve a system that benefits them."
+        },
+        {
+          "pid": "aroba-book-015#p005",
+          "type": "p",
+          "text": "Songs and chants become important weapons. In Yoruba political culture, music can say what official speeches are too frightened to say: it can mock, expose, warn and remember."
+        },
+        {
+          "pid": "aroba-book-015#p006",
+          "type": "p",
+          "text": "The people therefore become part of the struggle. They have already learned what corruption costs, and memory makes it harder for the old order to operate without resistance."
+        },
+        {
+          "pid": "aroba-book-015#p007",
+          "type": "p",
+          "text": "The story asks what government should mean: should a leader protect powerful insiders or ordinary citizens? Should stability mean silence, or should it be built on justice?"
+        },
+        {
+          "pid": "aroba-book-015#p008",
+          "type": "p",
+          "text": "The lesson of the taboo gong is that changing a person is easier than changing a system. But one leader who refuses to cooperate with corruption can still give a kingdom another chance."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 232
+    },
+    {
+      "id": "aroba-book-016",
+      "title_en": "Kòṣeégbé",
+      "title_yo": "Kòṣeégbé",
+      "author": "Akínwùnmí Ìṣọ̀lá",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "drama",
+        "social criticism",
+        "corruption",
+        "public service",
+        "integrity"
+      ],
+      "secondary_tags": [
+        "Mako",
+        "customs",
+        "bribery",
+        "family"
+      ],
+      "summary": "Mako, an honest customs officer, is appointed to a senior position and attempts to clean up an institution corrupted by fraud. His enemies respond with traps and false accusations.",
+      "status": "draft",
+      "source_note": "Canonical consolidation of the earlier Aroba version.",
+      "items": [
+        {
+          "pid": "aroba-book-016#p001",
+          "type": "p",
+          "text": "Imagine entering a workplace where everybody knows something is wrong, yet everybody has decided that the wrong thing is simply how business is done. Then imagine that a new officer arrives and says, 'No. This will not continue.' His name is Mako."
+        },
+        {
+          "pid": "aroba-book-016#p002",
+          "type": "p",
+          "text": "Mako is intelligent, diligent and principled. When he receives a senior customs appointment, he sees an institution suffering from fraud and illegal practices."
+        },
+        {
+          "pid": "aroba-book-016#p003",
+          "type": "p",
+          "text": "The people benefiting from corruption quickly realize that Mako cannot be bought easily. So they look for another weakness."
+        },
+        {
+          "pid": "aroba-book-016#p004",
+          "type": "p",
+          "text": "They begin setting traps designed to make the honest officer appear corrupt. If they cannot make him dishonest, they hope to make everyone believe he is dishonest."
+        },
+        {
+          "pid": "aroba-book-016#p005",
+          "type": "p",
+          "text": "The pressure reaches his family as well. His wife and household must live with the consequences of a battle that Mako refuses to abandon."
+        },
+        {
+          "pid": "aroba-book-016#p006",
+          "type": "p",
+          "text": "Eventually the conspiracy becomes more serious, but Mako works patiently to expose the people behind it. Evidence turns their own schemes against them."
+        },
+        {
+          "pid": "aroba-book-016#p007",
+          "type": "p",
+          "text": "Kòṣeégbé shows that corruption survives through networks of silence, fear and personal benefit. One honest person can become dangerous to such a system simply by refusing to participate."
+        },
+        {
+          "pid": "aroba-book-016#p008",
+          "type": "p",
+          "text": "So remember, my children: if everyone tells you that walking straight is foolish because the road is crooked, do not let their numbers convince you that crookedness has become righteousness."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 216
+    },
+    {
+      "id": "aroba-book-017",
+      "title_en": "The Sugarcane of the Guardian",
+      "title_yo": "Ìrèké Oníbùdó",
+      "author": "D.O. Fágúnwà",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "adventure",
+        "fantasy",
+        "folklore",
+        "morality",
+        "journey"
+      ],
+      "secondary_tags": [
+        "Ìrèké",
+        "Ifepade",
+        "Itanforiti",
+        "Gargantuan-Mermaid",
+        "wisdom"
+      ],
+      "summary": "Ìrèké Oníbùdó follows a young man whose journey from poverty and abandonment takes him through supernatural realms, loss, love, danger and finally kingship and wisdom.",
+      "status": "draft",
+      "source_note": "Consolidated from the earlier Aroba version.",
+      "items": [
+        {
+          "pid": "aroba-book-017#p001",
+          "type": "p",
+          "text": "Come close, my children, and listen to the story of Ìrèké Oníbùdó, a man whose life was filled with enough strange journeys to fill many lifetimes."
+        },
+        {
+          "pid": "aroba-book-017#p002",
+          "type": "p",
+          "text": "His parents died and he was left without protection. He found a modest livelihood raising chickens, but a false accusation involving the farmer's wife forced him to flee."
+        },
+        {
+          "pid": "aroba-book-017#p003",
+          "type": "p",
+          "text": "His journey carried him through Irewesi, the City of the Dead, and Ero-ehin, the town of the Backward People. Each place overturned ordinary expectations about how people should live."
+        },
+        {
+          "pid": "aroba-book-017#p004",
+          "type": "p",
+          "text": "Eventually the sea swallowed his ship and he was captured by the terrifying Gargantuan-Mermaid. She gave him seemingly impossible tasks, but his dead mother appeared and helped him survive."
+        },
+        {
+          "pid": "aroba-book-017#p005",
+          "type": "p",
+          "text": "In Alupayida he confronted a flying python that threatened the king's daughter, Ifepade. He killed the creature and fell in love with her, but false accusations again drove him away."
+        },
+        {
+          "pid": "aroba-book-017#p006",
+          "type": "p",
+          "text": "Ifepade followed the trail, and the lovers were reunited, only for death to take her. The grieving king later sent Ìrèké to find the wise man Itanforiti."
+        },
+        {
+          "pid": "aroba-book-017#p007",
+          "type": "p",
+          "text": "Itanforiti taught him that wealth without discipline, knowledge without kindness and desire without restraint can destroy a person. The deepest lesson was that human beings must learn how to live with one another."
+        },
+        {
+          "pid": "aroba-book-017#p008",
+          "type": "p",
+          "text": "When Ìrèké returned, the king had died and the people chose him as their ruler. The boy who began with almost nothing had become a king through a journey that taught him the mysteries of life."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 238
+    },
+    {
+      "id": "aroba-book-018",
+      "title_en": "The Mystery of God",
+      "title_yo": "Àdììtú Olódùmarè",
+      "author": "D.O. Fágúnwà",
+      "category": "Yoruba Classic",
+      "category_tags": [
+        "Yoruba literature",
+        "adventure",
+        "philosophy",
+        "poverty",
+        "journey",
+        "morality"
+      ],
+      "secondary_tags": [
+        "Àdììtú",
+        "Òbìrí-Aiyé",
+        "Ìpónjúdìran",
+        "Adémètó",
+        "Iyùnadé"
+      ],
+      "summary": "Àdììtú's difficult upbringing and journeys through poverty and strange encounters become a philosophical exploration of destiny, human choices, suffering and the mystery of God.",
+      "status": "draft",
+      "source_note": "Consolidated from the earlier Aroba version.",
+      "items": [
+        {
+          "pid": "aroba-book-018#p001",
+          "type": "p",
+          "text": "My children, some stories begin with wealth and others begin with hunger. Àdììtú's story begins with poverty and asks whether a difficult beginning must determine the whole of a person's life."
+        },
+        {
+          "pid": "aroba-book-018#p002",
+          "type": "p",
+          "text": "He was born to Òbìrí-Aiyé and Ìpónjúdìran in Ìlákòse. His father had once been a successful farmer, but poor management and excess destroyed what he had built."
+        },
+        {
+          "pid": "aroba-book-018#p003",
+          "type": "p",
+          "text": "Poverty eventually interrupted Àdììtú's education. The boy learned early that talent and ambition do not always defeat material circumstances."
+        },
+        {
+          "pid": "aroba-book-018#p004",
+          "type": "p",
+          "text": "He left home and encountered people who represented different ways of living. Some possessed wealth without wisdom, others knowledge without kindness, and others almost nothing but still had hope."
+        },
+        {
+          "pid": "aroba-book-018#p005",
+          "type": "p",
+          "text": "Companions such as Adémètó and Iyùnadé became part of his journey, while strange places turned ordinary experiences into questions about fate, suffering and God."
+        },
+        {
+          "pid": "aroba-book-018#p006",
+          "type": "p",
+          "text": "The story repeatedly asks why one person is born into abundance while another is born into hunger, why good people suffer, and how much of life is shaped by human choice."
+        },
+        {
+          "pid": "aroba-book-018#p007",
+          "type": "p",
+          "text": "Àdììtú's journey does not simply promise that poverty will become wealth. Its deeper concern is character: discipline, humility, hope and the ability to choose wisely even when circumstances are unfair."
+        },
+        {
+          "pid": "aroba-book-018#p008",
+          "type": "p",
+          "text": "The mystery remains larger than any one answer. Life contains things human beings cannot control, but within those mysteries our choices still matter."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 214
+    },
+    {
+      "id": "aroba-book-019",
+      "title_en": "The Adult Crab",
+      "title_yo": "Rẹ̀rẹ̀ Rùn",
+      "author": "Oládẹ̀jọ Òkédìjí",
+      "category": "Yoruba Literature",
+      "category_tags": [
+        "Yoruba literature",
+        "social realism",
+        "crime",
+        "detective fiction"
+      ],
+      "secondary_tags": [
+        "Lápadé",
+        "urban life",
+        "crime"
+      ],
+      "summary": "An earlier Aroba record for a crime-oriented Òkédìjí work, presented through the recurring concerns of cunning, urban life and the consequences of wrongdoing.",
+      "status": "draft",
+      "source_note": "Title/plot attribution in the earlier record was flagged for verification. Retained as a distinct documented entry because it was previously written as a separate story.",
+      "items": [
+        {
+          "pid": "aroba-book-019#p001",
+          "type": "p",
+          "text": "The earlier Aroba telling presented Rẹ̀rẹ̀ Rùn as a story of people navigating a difficult social environment where cleverness can become both a survival skill and a source of danger."
+        },
+        {
+          "pid": "aroba-book-019#p002",
+          "type": "p",
+          "text": "Crime, reputation and the pressure of urban life bring people into conflict, while the story examines how apparently small choices can grow into larger consequences."
+        },
+        {
+          "pid": "aroba-book-019#p003",
+          "type": "p",
+          "text": "Its central warning is that cunning may help a person escape one problem, but it can also create the next problem if it is not guided by character."
+        }
+      ],
+      "source_occurrence": 1,
+      "consolidates": [],
+      "word_count": 83
+    }
+  ]
+}
