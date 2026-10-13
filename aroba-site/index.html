@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="yo" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=cf8f14b7-215d-4fc1-8ad1-3ce26cd4fa25
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0C0902">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Àrọba">
+<meta name="description" content="Àrọba — AI-powered Yoruba cultural storytelling">
+<title>Àrọba — Father of Stories</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════════════════
+     DYNAMIC ISLAND
+════════════════════════════════════════════════════════ -->
+<div id="island">
+  <div class="i-cam"></div>
+  <div class="i-bars">
+    <div class="ibar"></div><div class="ibar"></div><div class="ibar"></div>
+    <div class="ibar"></div><div class="ibar"></div>
+  </div>
+  <span class="i-lbl">Àrọba ń gbọ́...</span>
+</div>
+
+<div id="app">
+
+  <!-- ════════════════════════════════════════════════════════
+       SPLASH SCREEN
+  ════════════════════════════════════════════════════════ -->
+  <div id="splash" class="screen active">
+    <div class="splash-bg"></div>
+    <div class="splash-overlay"></div>
+    <div class="splash-content">
+      <div class="splash-logo">Àrọba</div>
+      <div class="splash-tagline">Baba Àlọ · Father of Stories</div>
+      <div class="splash-adage" id="splash-adage">
+        "Bí ọmọ kò bá pàdé àlọ, yóò pàdé Àrọba<br>Àrọba ni baba gbogbo àlọ"
+      </div>
+      <div class="splash-lang">
+        <button data-lang="yo" class="on" id="home-lang-yo" onclick="app.splashLang('yo')">Yorùbá</button>
+        <button data-lang="en" id="home-lang-en" onclick="app.splashLang('en')">English</button>
+      </div>
+      <button class="splash-enter" id="splash-enter" onclick="app.enterApp()">Wọlé — Enter</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════
+       HOME SCREEN
+  ════════════════════════════════════════════════════════ -->
+  <div id="home" class="screen">
+    <div class="home-topbar">
+      <div class="home-logo">Àrọba</div>
+      <div class="topbar-actions">
+        <div class="lang-pill">
+          <button data-lang="yo" class="on" onclick="app._setLang('yo')">YO</button>
+          <button data-lang="en" onclick="app._setLang('en')">EN</button>
+        </div>
+        <button class="icon-btn" id="theme-btn" onclick="app._toggleTheme()" title="Toggle theme">🌙</button>
+        <button class="icon-btn" id="settings-btn" title="Settings">⚙️</button>
+      </div>
+    </div>
+
+    <!-- Category filter tabs -->
+    <div class="filter-tabs" id="filter-tabs">
+      <button class="ftab on" data-cat="all">Gbogbo</button>
+      <button class="ftab" data-cat="history">Ìtàn Ọba</button>
+      <button class="ftab" data-cat="warlord">Ológun</button>
+      <button class="ftab" data-cat="slave">Ìtàn Ẹrú</button>
+      <button class="ftab" data-cat="book">Ìwé</button>
+      <button class="ftab" data-cat="orisa">Òrìṣà</button>
+      <button class="ftab" data-cat="women">Obìnrin</button>
+    </div>
+
+    <!-- Story grid -->
+    <div class="story-grid" id="story-grid">
+      <!-- Populated by app.js -->
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════
+       PLAYER SCREEN
+  ════════════════════════════════════════════════════════ -->
+  <div id="player" class="screen">
+
+    <!-- Floating top bar (sits over video) -->
+    <div class="player-topbar">
+      <button class="back-btn" id="back-btn">←</button>
+      <div class="player-title" id="story-title-bar">Àrọba</div>
+      <div class="player-actions">
+        <div class="lang-pill">
+          <button data-lang="yo" class="on" id="lang-yo">YO</button>
+          <button data-lang="en" id="lang-en">EN</button>
+        </div>
+        <button class="icon-btn" id="settings-btn2" onclick="app._openSettings()" style="color:var(--t2)">⚙️</button>
+      </div>
+    </div>
+
+    <!-- Video Stage -->
+    <div class="video-wrapper">
+      <div id="video-stage"></div>
+      <div class="stage-fade"></div>
+
+      <!-- Story tag (top centre) -->
+      <div style="position:absolute;top:96px;left:50%;transform:translateX(-50%);z-index:4;">
+        <div class="badge" id="story-cat-tag" style="white-space:nowrap;font-size:10px;">⚡ Àrọba</div>
+      </div>
+
+      <!-- Scene & mood badges -->
+      <div class="stage-badges">
+        <div class="badge mood-badge">
+          <div class="mood-dot"></div>
+          <span id="mood-tag">AGBÁRA · EPIC</span>
+        </div>
+        <div class="badge" id="scene-tag">Ọ̀yọ́ · Òru</div>
+      </div>
+    </div>
+
+    <!-- Scrollable text -->
+    <div class="text-panel-wrap">
+      <div id="text-panel"></div>
+    </div>
+
+    <!-- Player controls -->
+    <div class="player-controls">
+      <div class="seg-info" id="seg-indicator">1 / 6</div>
+      <div class="ctrl-row">
+        <button class="ctrl-btn" id="prev-btn" title="Previous segment">⏮</button>
+        <button class="ctrl-btn" id="rewind-btn" title="Rewind">⏪</button>
+        <button class="play-btn" id="play-pause-btn" title="Play / Pause">▶</button>
+        <button class="ctrl-btn" id="forward-btn" title="Forward">⏩</button>
+        <button class="ctrl-btn" id="next-btn" title="Next segment">⏭</button>
+      </div>
+    </div>
+
+    <!-- AI Chat -->
+    <div class="chat-section">
+      <div class="chat-toggle" onclick="this.nextElementSibling.classList.toggle('open')">
+        <span class="chat-toggle-label">💬 Béèrè Àrọba · Ask Àrọba</span>
+        <span style="color:var(--t3);font-size:12px;">▲</span>
+      </div>
+      <div class="chat-body">
+        <div id="chat-log"></div>
+        <div class="chat-input-row">
+          <input id="chat-input" placeholder="Béèrè ìbéèrè kan..." type="text" autocomplete="off">
+          <button class="mic-btn" id="mic-btn" title="Voice input">🎙️</button>
+          <button class="send-btn" id="send-btn" title="Send">➤</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /app -->
+
+<!-- ════════════════════════════════════════════════════════
+     SETTINGS PANEL (global overlay)
+════════════════════════════════════════════════════════ -->
+<div id="settings-panel">
+  <div class="settings-box">
+    <div class="settings-title">⚙️ Ìfìtọ́ · Settings</div>
+
+    <div class="settings-label">Anthropic API Key</div>
+    <input id="api-key-input" type="password" placeholder="sk-ant-...">
+    <div class="settings-hint">
+      Required for AI conversation with Àrọba.<br>
+      Get a free key at <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a><br>
+      Without it, Àrọba uses built-in wisdom responses.<br>
+      Your key is stored locally on your device only.
+    </div>
+
+    <button class="settings-save" id="settings-save">Ràntí · Save</button>
+    <button onclick="document.getElementById('settings-panel').classList.remove('open')"
+      style="width:100%;margin-top:10px;padding:10px;border-radius:12px;
+             background:rgba(255,255,255,.06);border:1.5px solid var(--border);
+             color:var(--t2);font-size:14px;font-weight:600;">
+      Padà · Cancel
+    </button>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast"></div>
+
+<!-- ════ SCRIPTS ════ -->
+<script src="stories.js"></script>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+
+<!-- Patch: extra bindings needed after DOM ready -->
+<script>
+// Extend app with splash methods
+ArobaApp.prototype.splashLang = function(l) {
+  this.lang = l;
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    el.classList.toggle('on', el.dataset.lang === l);
+  });
+  const adages = {
+    yo: '"Bí ọmọ kò bá pàdé àlọ, yóò pàdé Àrọba<br>Àrọba ni baba gbogbo àlọ"',
+    en: '"If a child does not find a story, he will find Àrọba<br>Àrọba is the father of all stories"'
+  };
+  document.getElementById('splash-adage').innerHTML = adages[l];
+  document.getElementById('splash-enter').textContent = l === 'yo' ? 'Wọlé — Enter' : 'Enter — Wọlé';
+};
+
+ArobaApp.prototype.enterApp = function() {
+  this.engine.setLang(this.lang);
+  this._renderGrid();
+  this.showScreen('home');
+};
+
+// Settings btn2
+window.addEventListener('DOMContentLoaded', () => {
+  const sb2 = document.getElementById('settings-btn2');
+  if (sb2) sb2.onclick = () => app._openSettings();
+});
+</script>
+
+</body>
+</html>
