@@ -167,6 +167,8 @@ this._highlightWord(segIdx, charIndex, charLen);
 this.engine.onPlayStateChange = (playing) => {
 const btn = document.getElementById('play-pause-btn');
 if (btn) btn.textContent = playing ? '⏸' : '▶';
+const mb = document.getElementById('mini-play');
+if (mb) mb.textContent = playing ? '⏸' : '▶';
 };
 
 this.engine.onStoryEnd = () => {
@@ -211,6 +213,29 @@ if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); this._sendChat(); }
 // Lang tabs in home
 document.getElementById('home-lang-yo').onclick = () => this._setLang('yo');
 document.getElementById('home-lang-en').onclick = () => this._setLang('en');
+
+// Back prompt
+const bpKeep = document.getElementById('bp-keep');
+if (bpKeep) bpKeep.onclick = () => this._backKeepPlaying();
+const bpStop = document.getElementById('bp-stop');
+if (bpStop) bpStop.onclick = () => this._backStop();
+const bpCancel = document.getElementById('bp-cancel');
+if (bpCancel) bpCancel.onclick = () => this._dismissBackPrompt();
+const bpOverlay = document.getElementById('back-prompt');
+if (bpOverlay) bpOverlay.addEventListener('click', (e) => {
+if (e.target === bpOverlay) this._dismissBackPrompt();
+});
+
+// Mini-player
+const miniPlay = document.getElementById('mini-play');
+if (miniPlay) miniPlay.onclick = () => this._miniToggle();
+const miniStop = document.getElementById('mini-stop');
+if (miniStop) miniStop.onclick = () => this._miniStop();
+const miniReturn = document.getElementById('mini-return');
+if (miniReturn) {
+miniReturn.onclick = () => this._miniReturn();
+miniReturn.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this._miniReturn(); } };
+}
 }
 
 // ── Navigation ────────────────────────────────────────────────────────────
@@ -251,13 +276,75 @@ this._activateSegment(0);
 }
 
 _goHome() {
-this.engine.stop();
+// While narration is playing, ask before leaving: keep it going or stop.
+if (this.engine.isPlaying) {
+this._showBackPrompt();
+return;
+}
+this._hideMini();
 this.showScreen('home');
+}
+
+// ── Back prompt (leaving a story while audio plays) ─────────────────────────
+_showBackPrompt() {
+const m = document.getElementById('back-prompt');
+if (!m) { // safety fallback: behave as before
+this.engine.stop(); this._hideMini(); this.showScreen('home'); return;
+}
+m.classList.add('show');
+}
+_dismissBackPrompt() {
+const m = document.getElementById('back-prompt');
+if (m) m.classList.remove('show');
+}
+// "Keep playing" → go home, leave narration running, show the mini-player.
+_backKeepPlaying() {
+this._dismissBackPrompt();
+this._showMini();
+this.showScreen('home');
+}
+// "Stop" → halt narration and go home.
+_backStop() {
+this._dismissBackPrompt();
+this.engine.stop();
+this._hideMini();
+this.showScreen('home');
+}
+
+// ── Mini-player (narration continues after leaving a story) ──────────────────
+_showMini() {
+const bar = document.getElementById('mini-player');
+if (!bar || !this.currentStory) return;
+const t = document.getElementById('mini-title');
+if (t) t.textContent = this._txt(this.currentStory.title);
+const pp = document.getElementById('mini-play');
+if (pp) pp.textContent = this.engine.isPlaying ? '⏸' : '▶';
+bar.classList.add('show');
+}
+_hideMini() {
+const bar = document.getElementById('mini-player');
+if (bar) bar.classList.remove('show');
+}
+_miniToggle() {
+if (this.engine.isPlaying) this.engine.pause();
+else this.engine.play();
+}
+_miniStop() {
+this.engine.stop();
+this._hideMini();
+}
+// Reopen the narrating story at its current spot (no reset).
+_miniReturn() {
+if (!this.currentStory) return;
+this._hideMini();
+this.showScreen('player');
+this._activateSegment(this.engine.segmentIndex || 0);
 }
 
 // Clickable logo → full reset back to the home grid.
 goHomeReset() {
 this.engine.stop();
+this._hideMini();
 this.filter = 'all';
 this.search = '';
 const inp = document.getElementById('story-search');

@@ -163,6 +163,29 @@ PLAYER SCREEN
 </div>
 </div>
 
+<!-- Back prompt: shown when leaving a story while narration is playing -->
+<div id="back-prompt" class="aroba-modal" role="dialog" aria-modal="true" aria-labelledby="bp-title">
+<div class="aroba-modal-card">
+<button class="aroba-modal-x" id="bp-cancel" type="button" aria-label="Stay on story">✕</button>
+<div class="aroba-modal-title" id="bp-title">Narration is playing</div>
+<div class="aroba-modal-text">Keep listening while you browse, or stop it?</div>
+<div class="aroba-modal-actions">
+<button class="bp-btn bp-primary" id="bp-keep" type="button">▶ Keep playing</button>
+<button class="bp-btn bp-ghost" id="bp-stop" type="button">■ Stop</button>
+</div>
+</div>
+</div>
+
+<!-- Mini-player: narration continues after leaving a story -->
+<div id="mini-player" class="mini-player" role="region" aria-label="Now playing">
+<button class="mini-btn" id="mini-play" type="button" title="Play / Pause" aria-label="Play or pause">⏸</button>
+<div class="mini-meta" id="mini-return" role="button" tabindex="0" title="Return to story">
+<div class="mini-label">▶ Now playing · tap to return</div>
+<div class="mini-title" id="mini-title">—</div>
+</div>
+<button class="mini-btn mini-stop" id="mini-stop" type="button" title="Stop" aria-label="Stop">■</button>
+</div>
+
 </div><!-- /app -->
 
 <!-- ════════════════════════════════════════════════════════
