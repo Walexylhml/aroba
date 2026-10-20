@@ -101,12 +101,8 @@ class ArobaEngine {
     utt.pitch = 0.92;
     utt.volume = 1.0;
 
-    // Pick best available voice
-    const voices = this.synth.getVoices();
-    const preferred = voices.find(v => v.lang.startsWith('yo')) ||
-      voices.find(v => v.lang === 'en-NG') ||
-      voices.find(v => v.lang.startsWith('en') && v.name.toLowerCase().includes('male')) ||
-      voices.find(v => v.lang.startsWith('en'));
+    // Pick best available voice (warm, male, storytelling where possible)
+    const preferred = this._pickVoice();
     if (preferred) utt.voice = preferred;
 
     // Word-boundary events → live text highlighting
@@ -133,6 +129,46 @@ class ArobaEngine {
 
     this.currentUtt = utt;
     this.synth.speak(utt);
+  }
+
+  // Choose the most natural narration voice available.
+  // English narration should sound like a warm, male storyteller — not the
+  // default (often female) system voice. Nigerian / British English first.
+  _pickVoice() {
+    const voices = this.synth.getVoices();
+    if (!voices || !voices.length) return null;
+
+    if (this.lang === 'yo') {
+      // A real Yoruba voice if one exists, else Nigerian English, else male English.
+      return voices.find(v => v.lang && v.lang.toLowerCase().startsWith('yo'))
+        || voices.find(v => v.lang === 'en-NG')
+        || this._pickMaleEnglish(voices)
+        || voices.find(v => v.lang && v.lang.startsWith('en'))
+        || voices[0];
+    }
+
+    // English narration: Nigerian English, then a known male storyteller voice.
+    return voices.find(v => v.lang === 'en-NG')
+      || this._pickMaleEnglish(voices)
+      || voices.find(v => v.lang && v.lang.startsWith('en-GB'))
+      || voices.find(v => v.lang && v.lang.startsWith('en'))
+      || voices[0];
+  }
+
+  // Known male English voices across Chrome, Edge, Safari and Android,
+  // ordered with the richer storytelling voices first.
+  _pickMaleEnglish(voices) {
+    const names = [
+      'google uk english male', 'daniel', 'microsoft ryan', 'microsoft guy',
+      'microsoft mark', 'microsoft george', 'rishi', 'arthur', 'oliver',
+      'alex', 'fred', 'aaron', 'reed', 'male'
+    ];
+    const en = voices.filter(v => v.lang && v.lang.startsWith('en'));
+    for (const n of names) {
+      const hit = en.find(v => v.name && v.name.toLowerCase().includes(n));
+      if (hit) return hit;
+    }
+    return null;
   }
 
   // Chrome bug: SpeechSynthesis silently stops after ~15s of inactivity
